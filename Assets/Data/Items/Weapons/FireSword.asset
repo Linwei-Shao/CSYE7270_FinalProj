@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdfe0461df0fda479798f726f918d2c, type: 3}
+  m_Name: FireSword
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: aae59676ee42da14ab4fe837002c1785, type: 3}
+  itemName: FireSword
+  modelPrefeb: {fileID: 6573466570817658369, guid: 309d04e751ea19541bbf11283743a590, type: 3}
+  isUnarmed: 0
+  right_Hand_Idle: Right_Heavy_Idle
+  left_Hand_Idle: Left_Heavy_Idle
+  two_Hand_Idle: Both_Arm_Idle
+  OH_Light_Attack_1: 2H_Light_Attack_1
+  OH_Heavy_Attack_1: 2H_Heavy_Attack_1
+  OH_Light_Attack_2: 2H_Light_Attack_2
+  Skill_1: Skill_4
+  TH_Light_Attack_1: 2Hand_Light_Attack_1
+  TH_Light_Attack_2: 2Hand_Light_Attack_2
+  TH_Heavy_Attack_1: 2Hand_Heavy_Attack_1
+  baseStamina: 30
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2
+  damageAbsorption: 10
+  light1damage: 40
+  light2damage: 50
+  heavydamage: 80
+  skilldamage: 125
+  criticalDamageMultiplier: 2
+  manaCost: 50
+  isSpellCaster: 0
+  isFaithCaster: 0
+  isPyroCaster: 0
+  isMeleeWeapon: 1
+  isShield: 0

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdfe0461df0fda479798f726f918d2c, type: 3}
+  m_Name: Tailsman
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 37762e52034169a4e9f0c13bcf9f2498, type: 3}
+  itemName: Tailsman
+  modelPrefeb: {fileID: 1654591849544298, guid: f154921f4dd670a4b903eb56e4bd2bdd, type: 3}
+  isUnarmed: 0
+  right_Hand_Idle: Right_Arm_Idle
+  left_Hand_Idle: Left_Arm_Idle
+  two_Hand_Idle: Both_Arm_Idle
+  OH_Light_Attack_1: Empty
+  OH_Heavy_Attack_1: Empty
+  OH_Light_Attack_2: Empty
+  Skill_1: Empty
+  TH_Light_Attack_1: Empty
+  TH_Light_Attack_2: Empty
+  TH_Heavy_Attack_1: Empty
+  baseStamina: 0
+  lightAttackMultiplier: 0
+  heavyAttackMultiplier: 0
+  damageAbsorption: 0
+  light1damage: 0
+  light2damage: 0
+  heavydamage: 0
+  skilldamage: 0
+  criticalDamageMultiplier: 0
+  manaCost: 0
+  isSpellCaster: 0
+  isFaithCaster: 1
+  isPyroCaster: 1
+  isMeleeWeapon: 0
+  isShield: 0

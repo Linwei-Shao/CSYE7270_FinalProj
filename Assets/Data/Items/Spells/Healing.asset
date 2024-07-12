@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a6353f04cd7a848a1542c47c827a16, type: 3}
+  m_Name: Healing
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: cde97e3c095fecf40ab716d19ecee143, type: 3}
+  itemName: Divine Heal
+  spellWarmUpFX: {fileID: 1739096776086156, guid: 4d6d0b6c98562024e8896ae6e3312f74, type: 3}
+  spellCastFX: {fileID: 1233254026376546, guid: b6ac78dbb6751514392e2f44f82cc21f, type: 3}
+  spellAnimation: HealSpell
+  isFaithSpell: 1
+  isMagicSpell: 0
+  isPyroSpell: 0
+  spellDesc: 
+  manaCost: 32
+  staminaCost: 35
+  healAmount: 2.3
+  instantiatedWarmUpSpellFX: {fileID: 0}
+  instantiatedSpellFX: {fileID: 0}

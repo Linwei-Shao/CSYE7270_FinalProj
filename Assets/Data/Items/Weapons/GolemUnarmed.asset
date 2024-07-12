@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdfe0461df0fda479798f726f918d2c, type: 3}
+  m_Name: GolemUnarmed
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 0af13ac932b4719419babc2ae5908741, type: 3}
+  itemName: Fist
+  modelPrefeb: {fileID: 1606931596388707024, guid: 97f124883f7a5cc46be69c402ad1aabd, type: 3}
+  isUnarmed: 1
+  right_Hand_Idle: RightArmEmpty
+  left_Hand_Idle: LeftArmEmpty
+  two_Hand_Idle: Empty
+  OH_Light_Attack_1: UA_Light_Attack_1
+  OH_Heavy_Attack_1: UA_Heavy_Attack_1
+  OH_Light_Attack_2: UA_Light_Attack_2
+  Skill_1: Empty
+  TH_Light_Attack_1: Empty
+  TH_Light_Attack_2: Empty
+  TH_Heavy_Attack_1: Empty
+  baseStamina: 10
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2
+  damageAbsorption: 0
+  light1damage: 50
+  light2damage: 70
+  heavydamage: 20
+  skilldamage: 0
+  criticalDamageMultiplier: 0
+  manaCost: 0
+  isSpellCaster: 0
+  isFaithCaster: 0
+  isPyroCaster: 0
+  isMeleeWeapon: 1
+  isShield: 0

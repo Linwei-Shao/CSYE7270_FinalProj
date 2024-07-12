@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdfe0461df0fda479798f726f918d2c, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 6997b084d731f3f4184f9e9a4f927f2d, type: 3}
+  itemName: Sword
+  modelPrefeb: {fileID: 1631607032641582, guid: 0c14f3ea30af4174ba288b3c2042f665, type: 3}
+  isUnarmed: 0
+  right_Hand_Idle: Right_Arm_Idle
+  left_Hand_Idle: Left_Arm_Idle
+  two_Hand_Idle: Both_Arm_Idle
+  OH_Light_Attack_1: OH_Light_Attack_1
+  OH_Heavy_Attack_1: OH_Heavy_Attack_1
+  OH_Light_Attack_2: OH_Light_Attack_2
+  Skill_1: Skill_1
+  TH_Light_Attack_1: 2Hand_Light_Attack_1
+  TH_Light_Attack_2: 2Hand_Light_Attack_2
+  TH_Heavy_Attack_1: 2Hand_Heavy_Attack_1
+  baseStamina: 20
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2
+  damageAbsorption: 5
+  light1damage: 25
+  light2damage: 30
+  heavydamage: 50
+  skilldamage: 70
+  criticalDamageMultiplier: 2
+  manaCost: 30
+  isSpellCaster: 0
+  isFaithCaster: 0
+  isPyroCaster: 0
+  isMeleeWeapon: 1
+  isShield: 0
